@@ -1,0 +1,11 @@
+const {nanoid} = require('nanoid')
+const fromNoDepsPackage = require("with-no-deps")
+const fromUnsharedDepsPackage = require("with-unshared-deps")
+const fromSharedDepsPackage = require("with-shared-deps")
+const fromPeerDepsPackage = require("with-peer-deps")
+
+console.log(`From @my-company/with-no-deps`, fromNoDepsPackage.VALUE)
+console.log(`From @my-company/with-unshared-deps`, fromUnsharedDepsPackage.VALUE)
+console.log(`From fromSharedDepsPackage`, fromSharedDepsPackage.VALUE)
+console.log(`From fromPeerDepsPackage`, fromPeerDepsPackage.VALUE)
+console.log(`From main`, nanoid())

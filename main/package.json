@@ -1,0 +1,19 @@
+{
+  "name": "main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nanoid": "^3.1.30",
+    "with-no-deps": "file:../with-no-deps",
+    "with-peer-deps": "file:../with-peer-deps",
+    "with-shared-deps": "file:../with-shared-deps",
+    "with-unshared-deps": "file:../with-unshared-deps"
+  }
+}
