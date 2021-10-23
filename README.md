@@ -5,6 +5,7 @@ In NPM v7, theres a bug that prevents npm from installing linked package depende
 
 Additional notes: 
 - Peer deps are automatically installed like regular dependencies in NPM v7.
+- `node_modules` deps are included in this repository for inspection. 
 
 ## Resources 
 - https://github.com/npm/cli/issues/2339#issuecomment-880112661
